@@ -3,7 +3,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div className="footer-box">
+    <footer>
       <ul>
         <li>მთავარი</li>
         <li>აირჩიე კურსი</li>
@@ -14,7 +14,7 @@ const Footer = () => {
         <p>© 2023 ყველა უფლება დაცულია</p>
         <a href="#">წესები და პირობები</a>
       </div>
-    </div>
+    </footer>
   );
 };
 
