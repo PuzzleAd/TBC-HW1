@@ -11,7 +11,7 @@ const Header = () => {
             <Link to="/">მთავარი</Link>
           </li>
           <li>
-            <Link to="/about">აირჩიე კურსი</Link>
+            <Link to="/assignment3">Assignment3</Link>
           </li>
           <li>
             <Link to="/about">ჩვენ შესახებ</Link>
