@@ -1,0 +1,12 @@
+.about-content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.about-content > h1,
+p {
+  color: bisque;
+}
