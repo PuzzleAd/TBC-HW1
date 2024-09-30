@@ -1,0 +1,11 @@
+.contact-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.contact-content > h1,
+p {
+  color: bisque;
+}
