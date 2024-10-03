@@ -1,43 +1,44 @@
 .blog-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
 }
 
 .blog-box {
-    width: 70%;
-    padding: 30px;
-    background-color: beige;
-    border: 1px solid chocolate;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  width: 70%;
+  padding: 30px;
+  background-color: beige;
+  border: 1px solid chocolate;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 
 .blog-box > img {
-    width: 50%;
+  width: 50%;
 }
 
 .blog-box > div {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 
 .blog-box > div > h1 {
-    font-size: 24px;
+  font-size: 24px;
 }
 
-.blog-box > div > h1, p {
-    color: chocolate;
+.blog-box > div > h1,
+p {
+  color: chocolate;
 }
 
 .blog-box > div > a {
-    color: brown;
-    text-decoration: underline;
+  color: brown;
+  text-decoration: underline;
 }
