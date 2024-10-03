@@ -7,6 +7,7 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import Assignment3 from "./Assignment3/Assignment3";
 import Blog from "./Blog/Blog";
+import Profile from "./Profile/Profile";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />}/>
+        <Route path="/profile" element={<Profile/>} />
       </Routes>
       <Footer />
     </Router>

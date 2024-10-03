@@ -22,6 +22,9 @@ const Header = () => {
           <li>
             <Link to="/contact">კონტაქტი</Link>
           </li>
+          <li>
+            <Link to="/profile">პროფილი</Link>
+          </li>
         </ul>
       </nav>
     </header>
