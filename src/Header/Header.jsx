@@ -17,6 +17,9 @@ const Header = () => {
             <Link to="/about">ჩვენ შესახებ</Link>
           </li>
           <li>
+            <Link  to="/blog">ბლოგი</Link>
+          </li>
+          <li>
             <Link to="/contact">კონტაქტი</Link>
           </li>
         </ul>
